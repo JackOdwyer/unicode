@@ -1,17 +1,15 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Poppins, sans-serif;
     background-color: #f0f0f0;
 }
 
-
+/* Main container styles */
 .container {
     max-width: 600px;
     margin: 50px auto;
@@ -21,13 +19,14 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
+/* Title styles */
 h1 {
     margin-bottom: 20px;
     font-size: 28px;
     color: #333;
 }
 
+/* Input and button styles */
 textarea {
     width: calc(100% - 20px);
     margin-bottom: 10px;
@@ -51,13 +50,36 @@ button:hover {
     background-color: #0056b3;
 }
 
+/* Output textarea styles */
 #outputText {
     height: 100px;
     margin-top: 20px;
 }
 
+/* Instructions */
 .instructions {
     font-size: 14px;
     color: #666;
     margin-top: 10px;
+}
+
+/* Social icons container */
+.social-icons-container {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Social icon styles */
+.social-icons-container a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.social-icons-container a:hover {
+    color: #333;
 }
